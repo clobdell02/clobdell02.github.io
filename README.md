@@ -1,5 +1,5 @@
-# Portfolio
-Portfolio Website
+# Personal Website
+Personal Portfolio hosted on GitHub Pages
 
 Website created to be my professional portfolio, displaying my favorite and best projects. Files edited in VSCode.
 
