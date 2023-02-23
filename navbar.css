@@ -1,0 +1,36 @@
+/* The top navigation bar */
+
+.nav-bar {
+    list-style-type: none;
+    position: -webkit-sticky;
+    margin: 0px;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
+    z-index: 20;
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 21;
+}
+
+.nav-bar a:hover {
+    background-color: darkgoldenrod;
+}
+
+.top-button {
+    font-size: 32px;
+    font-weight: 500%;
+    float: right;
+    z-index: 21;
+}

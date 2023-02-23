@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Colton Lobdell's Portfolio</title>
+
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="links.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="photos.css">
+    <link rel="stylesheet" href="text.css">
+
+    <script src="slides.js"></script>
+    <script src="landing.js"></script>
+</head>
+
+<div class="landing-section">
+    <video autoplay muted loop id="myVideo">
+        <source src="otherPhotos/pexels-rostislav-uzunov-9150545.mp4" type="video/mp4">
+    </video>
+    <section id="landing">
+        <header>
+            <h1 id="Home"><i>Colton Lobdell</i></h1>
+            <h2><i>Transforming ideas into software realities.</i></h2>
+            <button id="'jump-down" onclick="jumpToSection('aboutMe')">View my work -></button>
+        </header>
+    </section>
+</div>
+
+<body> 
+    <!-- Nav Bar Items -->
+    <ul class="nav-bar">
+        <li><a href="#About">Bio</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Links">Links</a></li>
+        <li class="top-button"><a href="#landing">^</a></li>
+    </ul>
+    
+    <!-- About Me -->
+    <section id="aboutMe">
+        <h2 class="title" id="About"><i> About Me: </i></h2>
+        <div class="bio-container">
+            <div class="bio-item">
+                <p class="bio">
+                    Hi, my name is Colton and creatively solving problems with the use of technology is a passion of mine.
+                    My interest for creativley working with technology started at a young age with me trying to understand how
+                    the video games I was playing worked. This eventually led me to pursuing academic teaching in fields such as
+                    web design in 2011, and robotics in 2012. I continued wanting to and trying to learn about technology until
+                    eventually
+                    majoring in Computer and Information Science at the University of Oregon.
+                </p>
+                <p class="bio">
+                    Now with just having graduated in June of 2022 with my Bachelors, I have continued to try and learn more
+                    while creating a career around software development. My career goal is to enter and succeed within the game development
+                    or mobile application design fields. Currently I am focused on finding a place where I can help produce
+                    software that will benefit people while being creative, reusable, and intuitive.
+                </p>
+                <p class="bio">
+                    Some of the tools and technologies that I have been utilizing lately are:
+                </p>
+                <ul class="skill-list">
+                    <li class="skill-item">
+                        📌 Amazon Web Services
+                    </li>
+                    <li class="skill-item">
+                        📌 SQL
+                    </li>
+                    <li class="skill-item">
+                        📌 GitHub Pages
+                    </li>
+                    <li class="skill-item">
+                        📌 C#
+                    </li>
+                    <li class="skill-item">
+                        📌 Unity
+                    </li>
+                </ul>
+            </div>
+            <img src="otherPhotos/prof.jpg" id="profile" alt="profile photo">
+        </div>
+    </section>
+    
+    <!-- Projects -->
+    <section id="myWork">
+        <h2 class="title" id="Projects"><i> What I've Done: </i></h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3 class="project-title"> Unity 3D Game: Aegis </h3>
+                <div class="slideshow-container">
+                    <img class="aegisSlides" src="aegisPhotos/Aegis.PNG" alt="titleScreen">
+                    <img class="aegisSlides" src="aegisPhotos/inGame.PNG" alt="level2">
+                    <img class="aegisSlides" src="aegisPhotos/lv3.PNG" alt="level3">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div class="text">
+                    <p> A third person 3D action game created while attending the University of Oregon along with two other
+                        students. The player
+                        takes control of a character only equipped with a shield in a world filled with enemies. Players either
+                        have to
+                        avoid enemies or use a combination of their shield and the environment in order to eliminate target
+                        enemies in three
+                        creative and unique levels. </p>
+                    <ul class="tech-list">
+                        <li class="tech-item">
+                            • C#
+                        </li>
+                        <li class="tech-item">
+                            • Unity
+                        </li>
+                    </ul>
+                    <p class="project-link"><a href="https://play.unity.com/mg/other/webgl-builds-204986">Play Here!</a></p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <h3 class="project-title"> Android Mobile Application: Pantry </h3>
+                <div class="slideshow-container">
+                    <img class="pantry-slide" src="pantryPhotos/pantryAddItem.png" alt="Add-Item">
+                    <img class="pantry-slide" src="pantryPhotos/pantryEXP.png" alt="experations">
+                    <img class="pantry-slide" src="pantryPhotos/pantrylist.png" alt="list">
+                    <img class="pantry-slide" src="pantryPhotos/pantrySettings.png" alt="settings">
+                    <a class="prev" onclick="plusPantry(-1)">&#10094;</a>
+                    <a class="next" onclick="plusPantry(1)">&#10095;</a>
+                </div>
+                <div class="text">
+                    <p> An android application designed to help manage and track food inventory. Built in a group of five while
+                        attending the
+                        University of Oregon. The app features a working notification system that can be adjusted to a users
+                        preference and an interactable shopping list. </p>
+                    <ul class="tech-list">
+                        <li class="tech-item">
+                            • Kotlin
+                        </li>
+                        <li class="tech-item">
+                            • SQL
+                        </li>
+                        <li class="tech-item">
+                            • Android Studio
+                        </li>
+                    </ul>
+                    <p class="project-link"><a href="https://github.com/clobdell02/PantryApp">Source Code Here!</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Links -->
+    <section id="contactLinks">
+        <h2 class="title" id="Links"><i> Where to Find Me: </i></h2>
+        <!-- List of important Links (GitHub, LinkedIn, Gmail) -->
+        <ul class="icon-list">
+            <li class="icon-link"><a href="https://www.linkedin.com/in/colton-lobdell/"><img
+                        src="link-icons/iconmonstr-linkedin-3-120.png" id="LinkedIn" alt="LinkedIn"></a></li>
+            <li class="icon-link"><a href="https://github.com/clobdell02"><img src="link-icons/iconmonstr-github-3-120.png"
+                        id="Github" alt="GitHub"></a></li>
+            <li class="icon-link"><a href="mailto:clobdell02@gmail.com"><img src="link-icons/iconmonstr-gmail-3-120.png" id="Gmail"
+                        alt="Gmail"></a></li>
+        </ul>
+    </section>
+</body>
+
+</html>

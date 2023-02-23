@@ -1,0 +1,22 @@
+/* styling file for the links section */
+
+.icon-list {
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.icon-link {
+    text-align: left;
+    justify-content: left;
+    align-content: left;
+    padding: 14px 16px;
+}
+
+.icon-link:hover {
+    transform: rotate(15deg);
+    background-color: black;
+}

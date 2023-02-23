@@ -1,0 +1,88 @@
+/* Styling for portfolio website */
+
+/* background styling */
+body {
+    /*background-color: #0a192f;*/
+    background-color: rgb(165, 190, 206);
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* section title & project title styling */
+.title {
+    font-size: 28px;
+    text-decoration: underline rgb(161, 112, 21);
+    color: rgb(161, 112, 21);
+}
+
+.project-title {
+    font-size: 20px;
+    margin-left: 3%;
+    text-decoration: underline;
+    color: rgb(161, 112, 21);
+}
+/* ---------------------------------------------------------------------------------- */ 
+
+.bio-container {
+    display: flex;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-item {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 5%;
+    margin-right: 5%;
+    color: black;
+}
+
+.text {
+    font-size: 18px;
+    text-align: left;
+    color: black;
+}
+
+.project-link {
+    font-weight: bold;
+}
+
+.skill-list {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 4%;
+    margin-right: 5%;
+    font-size: var(--fz-xs);
+    background-color: transparent;
+}
+
+.skill-list li {
+    text-align: left;
+    display: block;
+    width: 45%;
+    margin: 1%;
+    float: left;
+    color: black;
+}
+
+.tech-list {
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.tech-list li {
+    text-align: left;
+    font-weight: bold;
+    margin-right: 25px;
+}
